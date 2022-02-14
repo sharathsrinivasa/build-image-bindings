@@ -24,7 +24,7 @@
 						<configuration>
 							<image>
 								<bindings>
-									<binding>/Users/ssrinivasa/trashit/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-maven-plugin/src/intTest/projects/build-image-bindings/bindings/bellsoft-jdk-config:/platform/bindings/bellsoft-jdk-config</binding>
+									<binding>${basedir}/bindings/bellsoft-jdk-config:/platform/bindings/bellsoft-jdk-config</binding>
 <!--									<binding>${basedir}/bindings/ca-certificates:/platform/bindings/ca-certificates</binding>-->
 								</bindings>
 							</image>
